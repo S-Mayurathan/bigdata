@@ -5,6 +5,7 @@ public class CountWord {
 
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
+	//added comment
 		try {
 			Comparator<String> compReducer = (s1, s2) -> s1
 					.compareToIgnoreCase(s2);
